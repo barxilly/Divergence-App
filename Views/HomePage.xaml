@@ -155,14 +155,27 @@
             </ScrollViewer>
         <!-- Screen Width button -->
             <TextBlock Text="Worlds" FontSize="20" Margin="10"/>
-            <Button Height="200" Margin="10" HorizontalAlignment="Stretch" Name="S1">
-                <StackPanel>
-                    <Image Source="/Assets/majs.png" Width="200" Margin="1"/>
-                    <Rectangle HorizontalAlignment="Stretch" Height="7" Fill="Transparent" />
-                    <TextBlock Text="Season One" FontSize="20"/>
-                    <!--<TextBlock Text="Overworld" FontSize="10" Foreground="Gray"/>-->
-                </StackPanel>
-            </Button>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Height="200" Margin="10" HorizontalAlignment="Stretch" Name="S1" Grid.Column="0">
+                    <StackPanel>
+                        <Image Source="/Assets/majs.png" Width="200" Margin="1"/>
+                        <Rectangle HorizontalAlignment="Stretch" Height="7" Fill="Transparent" />
+                        <TextBlock Text="Season One" FontSize="20"/>
+                    </StackPanel>
+                </Button>
+                <Button Height="200" Margin="10" HorizontalAlignment="Stretch" Name="S2" Grid.Column="1" IsEnabled="False">
+                    <StackPanel>
+                        <Image Source="https://safewaysystems.co.uk/wp-content/uploads/2019/10/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-Coming-Soon-Sale-upcoming-Green-2.png" Width="100" Margin="1"/>
+                        <Rectangle HorizontalAlignment="Stretch" Height="7" Fill="Transparent" />
+                        <TextBlock Text="Season Two" FontSize="20"/>
+                        <TextBlock Text="Will Be Available Early 2025" FontSize="10" Foreground="Gray"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
         </StackPanel>
 </ScrollViewer>
 </Page>

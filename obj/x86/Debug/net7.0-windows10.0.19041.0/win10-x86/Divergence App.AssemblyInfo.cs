@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6de9463a7ffbfd67415f92b6c5d42f9aee56162b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

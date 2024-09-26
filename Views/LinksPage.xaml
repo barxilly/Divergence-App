@@ -7,6 +7,14 @@
     mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        
+        <StackPanel>
+            <HyperlinkButton Content="Divergence Website" NavigateUri="http://divergencesmp.site/" />
+            <Rectangle Height="20" Fill="Transparent" />
+            <HyperlinkButton Content="Divergence Discord" NavigateUri="https://divergen.cc/discord" />
+            <Rectangle Height="20" Fill="Transparent" />
+            <HyperlinkButton Content="Divergence Twitter" NavigateUri="https://divergen.cc/twitter" />
+            <Rectangle Height="20" Fill="Transparent" />
+            <HyperlinkButton Content="Divergence TV" NavigateUri="https://www.youtube.com/@DivergenceSMPTV" />
+        </StackPanel>
     </Grid>
 </Page>

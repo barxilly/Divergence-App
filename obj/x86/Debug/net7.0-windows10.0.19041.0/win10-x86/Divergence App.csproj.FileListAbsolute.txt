@@ -1052,3 +1052,4 @@ D:\C#\DV\Divergence App\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\quali
 D:\C#\DV\Divergence App\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\qualifiers.txt.intermediate
 D:\C#\DV\Divergence App\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\MultipleQualifiersPerDimensionFound.txt
 D:\C#\DV\Divergence App\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\ProjectArchitectures.txt
+D:\C#\DV\Divergence App\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\Divergence App.sourcelink.json
