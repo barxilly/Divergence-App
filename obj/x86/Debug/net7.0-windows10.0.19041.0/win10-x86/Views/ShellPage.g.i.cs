@@ -51,4 +51,24 @@ namespace Divergence_App.Views
         private interface IShellPage_Bindings
         {
             void Initialize();
-        
+            void Update();
+            void StopTracking();
+            void DisconnectUnloadedObject(int connectionId);
+        }
+
+        private interface IShellPage_BindingsScopeConnector
+        {
+            global::System.WeakReference Parent { get; set; }
+            bool ContainsElement(int connectionId);
+            void RegisterForElementConnection(int connectionId, global::Microsoft.UI.Xaml.Markup.IComponentConnector connector);
+        }
+#pragma warning disable 0169    //  Proactively suppress unused field warning in case Bindings is not used.
+#pragma warning disable 0649
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2310")]
+        private IShellPage_Bindings Bindings;
+#pragma warning restore 0649
+#pragma warning restore 0169
+    }
+}
+
+

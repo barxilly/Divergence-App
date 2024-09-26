@@ -4851,6 +4851,10 @@
             "version": "[7.0.20, 7.0.20]"
           },
           {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
             "version": "[7.0.20, 7.0.20]"
           },

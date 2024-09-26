@@ -36,4 +36,12 @@ namespace Divergence_App.Views
             _contentLoaded = true;
 
             global::System.Uri resourceLocator = new global::System.Uri("ms-appx:///Views/MembersPage.xaml");
-            global::Microsoft.UI.Xaml.Application.LoadComponent(this, res
+            global::Microsoft.UI.Xaml.Application.LoadComponent(this, resourceLocator, global::Microsoft.UI.Xaml.Controls.Primitives.ComponentResourceLocation.Application);
+        }
+
+        partial void UnloadObject(global::Microsoft.UI.Xaml.DependencyObject unloadableObject);
+
+    }
+}
+
+

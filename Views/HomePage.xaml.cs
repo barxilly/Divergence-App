@@ -27,12 +27,27 @@ public sealed partial class HomePage : Page
 
     private void S1_click(object sender, RoutedEventArgs e)
     {
-        System.Diagnostics.Process.Start("cmd", "/c start https://drive.usercontent.google.com/download?id=1LIxNJVkE6x7FCBAJHTKxb7Bq4IjC3fKi&export=download&authuser=0");
+        // Go to https://drive.usercontent.google.com/download?id=1LIxNJVkE6x7FCBAJHTKxb7Bq4IjC3fKi&export=download&authuser=0
+        var psi = new System.Diagnostics.ProcessStartInfo
+        {
+            FileName = "cmd",
+            Arguments = "/c start https://drive.usercontent.google.com/download?id=1LIxNJVkE6x7FCBAJHTKxb7Bq4IjC3fKi&export=download&authuser=0",
+            CreateNoWindow = true,
+            UseShellExecute = false
+        };
+        System.Diagnostics.Process.Start(psi);
     }
 
     private void Kat_click(object sender, RoutedEventArgs e)
     {
-        // Go to Members Page
-       //  Frame.Navigate(typeof(MembersPage));
+        // Go to https://youtube.com/@kat.beanie
+                var psi = new System.Diagnostics.ProcessStartInfo
+        {
+            FileName = "cmd",
+            Arguments = "/c start https://youtube.com/@kat.beanie",
+            CreateNoWindow = true,
+            UseShellExecute = false
+        };
+        System.Diagnostics.Process.Start(psi);
     }
 }

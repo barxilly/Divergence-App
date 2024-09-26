@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f732f4b24183f2aa0cd5c9a17bc176827b5ac1a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Divergence App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

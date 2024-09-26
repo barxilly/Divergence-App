@@ -48,7 +48,7 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_Members">
+                <!--<NavigationViewItem x:Uid="Shell_Members">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
                     </NavigationViewItem.Icon>
@@ -56,7 +56,7 @@
                         <NavigationViewItem Content="Member" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.MembersViewModel" />
                     </NavigationViewItem.MenuItems>
 
-                </NavigationViewItem>
+                </NavigationViewItem>-->
                 <NavigationViewItem x:Uid="Shell_Links" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.LinksViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>

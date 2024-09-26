@@ -31,7 +31,7 @@
                             <TextBlock Text="Kat.Beanie89" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="Diggin">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
