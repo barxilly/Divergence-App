@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Ben\Pictures\Camera Roll\d.png</Source>
+    <SmallTileSource>C:\Users\Ben\Pictures\Camera Roll\d.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Ben\Pictures\Camera Roll\d.png</MediumTileSource>
+    <WideTileSource>C:\Users\Ben\Pictures\Camera Roll\d.png</WideTileSource>
+    <LargeTileSource>C:\Users\Ben\Pictures\Camera Roll\d.png</LargeTileSource>
+    <AppIconSource>C:\Users\Ben\Pictures\Camera Roll\d.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Ben\Pictures\Camera Roll\d.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Ben\Pictures\Camera Roll\d.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

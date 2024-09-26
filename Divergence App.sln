@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divergence App", "Divergence App.csproj", "{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divergence App.Core", "..\Divergence App.Core\Divergence App.Core.csproj", "{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|Any CPU.Build.0 = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|arm64.ActiveCfg = Debug|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|arm64.Build.0 = Debug|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|arm64.Deploy.0 = Debug|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x64.ActiveCfg = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x64.Build.0 = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x64.Deploy.0 = Debug|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x86.ActiveCfg = Debug|x86
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x86.Build.0 = Debug|x86
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Debug|x86.Deploy.0 = Debug|x86
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|Any CPU.ActiveCfg = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|Any CPU.Build.0 = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|Any CPU.Deploy.0 = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|arm64.ActiveCfg = Release|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|arm64.Build.0 = Release|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|arm64.Deploy.0 = Release|arm64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x64.ActiveCfg = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x64.Build.0 = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x64.Deploy.0 = Release|x64
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x86.ActiveCfg = Release|x86
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x86.Build.0 = Release|x86
+		{C3FC4F28-5DFA-4B6D-8941-011FDBA5D7A9}.Release|x86.Deploy.0 = Release|x86
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|arm64.ActiveCfg = Debug|arm64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|arm64.Build.0 = Debug|arm64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|x64.ActiveCfg = Debug|x64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|x64.Build.0 = Debug|x64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|x86.ActiveCfg = Debug|x86
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Debug|x86.Build.0 = Debug|x86
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|arm64.ActiveCfg = Release|arm64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|arm64.Build.0 = Release|arm64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|x64.ActiveCfg = Release|x64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|x64.Build.0 = Release|x64
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|x86.ActiveCfg = Release|x86
+		{3AB3908C-FD5B-49B6-B69B-DDE239DFE303}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE65E62E-745E-4EBE-91D9-AD22059087B5}
+	EndGlobalSection
+EndGlobal
