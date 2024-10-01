@@ -19,6 +19,11 @@ public class PageService : IPageService
         Configure<LinksViewModel, LinksPage>();
         Configure<ContentViewModel, ContentPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<DinoViewModel, DinoPage>();
+        Configure<DigginViewModel, Diggin>();
+        Configure<AmanchooViewModel, Amanchoo>();
+        Configure<MajViewModel, Maj>();
+        Configure<SillyViewModel, Silly>();
     }
 
     public Type GetPageType(string key)

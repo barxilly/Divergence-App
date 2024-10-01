@@ -4758,11 +4758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\DV\\Divergence App\\Divergence App.csproj",
+      "projectUniqueName": "D:\\C#\\WinUI\\DV\\Divergence App\\Divergence App.csproj",
       "projectName": "Divergence App",
-      "projectPath": "D:\\C#\\DV\\Divergence App\\Divergence App.csproj",
+      "projectPath": "D:\\C#\\WinUI\\DV\\Divergence App\\Divergence App.csproj",
       "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\DV\\Divergence App\\obj\\",
+      "outputPath": "D:\\C#\\WinUI\\DV\\Divergence App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4784,8 +4784,8 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\C#\\DV\\Divergence App.Core\\Divergence App.Core.csproj": {
-              "projectPath": "D:\\C#\\DV\\Divergence App.Core\\Divergence App.Core.csproj"
+            "D:\\C#\\WinUI\\DV\\Divergence App.Core\\Divergence App.Core.csproj": {
+              "projectPath": "D:\\C#\\WinUI\\DV\\Divergence App.Core\\Divergence App.Core.csproj"
             }
           }
         }
@@ -4848,10 +4848,6 @@
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
             "version": "[7.0.20, 7.0.20]"
           },
           {

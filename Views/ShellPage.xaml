@@ -48,20 +48,29 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <!--<NavigationViewItem x:Uid="Shell_Members">
+                <NavigationViewItem x:Uid="Shell_Members">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
                     </NavigationViewItem.Icon>
                     <NavigationViewItem.MenuItems>
-                        <NavigationViewItem Content="Member" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.MembersViewModel" />
+                        <NavigationViewItem Content="Kat" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.MembersViewModel" />
+                        <NavigationViewItem Content="Diggin" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.DigginViewModel" />
+                        <NavigationViewItem Content="Amanchoo" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.AmanchooViewModel" />
+                        <NavigationViewItem Content="Married In Minecraft Team" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.MajViewModel" />
+                        <NavigationViewItem Content="Silly" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.SillyViewModel" />
                     </NavigationViewItem.MenuItems>
 
-                </NavigationViewItem>-->
+                </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Links" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.LinksViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                <!--<NavigationViewItem Content="The Divergent Game" helpers:NavigationHelper.NavigateTo="Divergence_App.ViewModels.DinoViewModel">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph=""/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>-->
             </NavigationView.MenuItems>
             <NavigationView.HeaderTemplate>
                 <DataTemplate>

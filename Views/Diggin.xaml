@@ -1,5 +1,6 @@
-﻿<Page
-    x:Class="Divergence_App.Views.MembersPage"
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Divergence_App.Views.Diggin"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Divergence_App.Views"
@@ -10,16 +11,17 @@
     <Grid x:Name="ContentArea">
         <ScrollView>
             <StackPanel HorizontalAlignment="Stretch">
-                <TextBlock Text="Just a Scottish Lass that loves Minecraft, Sims 4 and gaming in general. I'm a Mammy and a big supporter of Autism awareness." TextWrapping="WrapWholeWords"/>
+                <TextBlock Text="I'm a Java girl in a Bedrock world. 
+I play Minecraft and talk about my Dissociative Identity Disorder (DID), about life and laugh a lot. I do swear like a sailor, if that is still PC to say, and hate jump scares! So welcome to the insanity, hope you enjoy." TextWrapping="WrapWholeWords"/>
                 <Rectangle HorizontalAlignment="Stretch" Height="10" Fill="Transparent" />
                 <StackPanel Orientation="Horizontal">
-                <HyperlinkButton NavigateUri="http://youtube.com/@kat.beanie" >
-                    <Image Source="https://simpleicons.org/icons/youtube.svg" Height="20"/>
-                </HyperlinkButton>
-                    <HyperlinkButton NavigateUri="http://twitch.tv/katbeanie" >
+                    <HyperlinkButton NavigateUri="http://youtube.com/@diggintruths" >
+                        <Image Source="https://simpleicons.org/icons/youtube.svg" Height="20"/>
+                    </HyperlinkButton>
+                    <HyperlinkButton NavigateUri="http://twitch.tv/diggintruths" >
                         <Image Source="https://simpleicons.org/icons/twitch.svg" Height="20"/>
                     </HyperlinkButton>
-                    <HyperlinkButton NavigateUri="http://x.com/autymamma" >
+                    <HyperlinkButton NavigateUri="http://x.com/diggintruths" >
                         <Image Source="https://simpleicons.org/icons/x.svg" Height="20"/>
                     </HyperlinkButton>
                 </StackPanel>

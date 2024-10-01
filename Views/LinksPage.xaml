@@ -8,7 +8,7 @@
 
     <Grid x:Name="ContentArea">
         <StackPanel>
-            <HyperlinkButton Content="Divergence Website" NavigateUri="http://divergencesmp.site/" />
+            <HyperlinkButton Content="Divergence Website" NavigateUri="http://divergence.live/" />
             <Rectangle Height="20" Fill="Transparent" />
             <HyperlinkButton Content="Divergence Discord" NavigateUri="https://divergen.cc/discord" />
             <Rectangle Height="20" Fill="Transparent" />

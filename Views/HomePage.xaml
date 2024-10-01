@@ -11,7 +11,7 @@
             IsTabStop="True" IsVerticalScrollChainingEnabled="True"
             HorizontalScrollMode="Disabled" HorizontalScrollBarVisibility="Disabled"
             VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible">
-    <StackPanel x:Name="ContentArea">
+    <StackPanel Name="ContentArea">
         <!-- Sideways scrolling card list of members-->
             <TextBlock Text="Members" FontSize="20" Margin="10"/>
             <ScrollViewer
@@ -43,7 +43,7 @@
                             <TextBlock Text="DigginTruths" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="Amanchoo">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -55,7 +55,7 @@
                             <TextBlock Text="Aman Chooses2289" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="Maj">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -67,7 +67,7 @@
                             <TextBlock Text="Maj_Madden" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="BadRabbit">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -79,7 +79,7 @@
                             <TextBlock Text="BadRabbit1971" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="Silly">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -91,7 +91,7 @@
                             <TextBlock Text="SillyXbox5" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="HolyMist">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -103,7 +103,7 @@
                             <TextBlock Text="HolyMist6249" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" Name="RockyMender">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -115,7 +115,7 @@
                             <TextBlock Text="RockyMender" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" IsEnabled="False">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -127,7 +127,19 @@
                             <TextBlock Text="Jewel Fireoak" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" IsEnabled="False">
+                        <StackPanel>
+                            <Ellipse Height="100" Width="100" Margin="4">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="https://cdn.mafrservices.com/sys-master-root/h86/h6e/11052392349726/1552234_main.jpg?im=Resize=480"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Rectangle HorizontalAlignment="Stretch" Height="7" Fill="Transparent" />
+                            <TextBlock Text="Aussie" FontSize="20"/>
+                            <TextBlock Text="Aussie Redstone" FontSize="10" Foreground="Gray"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="200" Height="200" Margin="10" IsEnabled="False">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
@@ -139,7 +151,7 @@
                             <TextBlock Text="HearNoEvil" FontSize="10" Foreground="Gray"/>
                         </StackPanel>
                     </Button>
-                    <Button Width="200" Height="200" Margin="10">
+                    <Button Width="200" Height="200" Margin="10" IsEnabled="False">
                         <StackPanel>
                             <Ellipse Height="100" Width="100" Margin="4">
                                 <Ellipse.Fill>
